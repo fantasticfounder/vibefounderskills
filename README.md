@@ -23,17 +23,12 @@ You build apps with AI tools like Cursor, Replit, Bolt, or Lovable. You can ship
 
 ## How to Install
 
-In Claude Code:
+Add the marketplace, then install any plugin:
 
-```
-claude plugins add fantasticfounder/vibefounderskills
-```
-
-Or install individual plugins:
-
-```
-claude plugins add fantasticfounder/vibefounderskills/ff-idea-validation
-claude plugins add fantasticfounder/vibefounderskills/ff-growth
+```bash
+claude plugin marketplace add fantasticfounder/vibefounderskills
+claude plugin install ff-idea-validation
+claude plugin install ff-growth
 ```
 
 ## How to Use
@@ -59,15 +54,29 @@ Or run a full workflow command for a comprehensive strategy session:
 
 Each skill uses established business frameworks adapted for solo founders:
 
-- **Jobs to Be Done** (Christensen) for customer understanding
-- **Positioning** (April Dunford) for market differentiation
-- **Blue Ocean Strategy** (Kim & Mauborgne) for competitive analysis
-- **Mom Test** (Fitzpatrick) for customer interviews
-- **Value Equation** (Hormozi) for offer creation
-- **Tactical Empathy** (Chris Voss) for selling
-- **Hooked Model** (Nir Eyal) for retention
-- **Pretotyping** (Savoia) for cheap validation
-- **Crossing the Chasm** (Geoffrey Moore) for market entry
+**Validation & Research**
+- **Compact Keywords** (Ed Sturm) for search demand validation
+- **Pretotyping** (Savoia) for cheap experiments before building
+- **Mom Test** (Fitzpatrick) for customer interviews that surface truth
+- **Porter's Five Forces** (Porter) for competitive landscape analysis
+
+**Positioning & Strategy**
+- **Jobs to Be Done** (Christensen) for understanding what customers hire your product to do
+- **Positioning** (April Dunford) for defining where you win
+- **Blue Ocean Strategy** (Kim & Mauborgne) for finding uncontested market space
+- **Crossing the Chasm** (Geoffrey Moore) for picking your beachhead segment
+- **Value Proposition Canvas** (Osterwalder) for mapping customer needs to product
+
+**Pricing & Selling**
+- **Van Westendorp** for price sensitivity analysis
+- **Value Equation** (Hormozi) for making offers feel like a steal
+- **Tactical Empathy** (Chris Voss) for handling objections without being pushy
+- **AIDA, PAS & StoryBrand** (Miller) for sales page structure
+
+**Growth & Retention**
+- **Hooked Model** (Nir Eyal) for building habit-forming products
+- **North Star Metric** (Sean Ellis / Amplitude) for measuring what matters
+- **Theory of Constraints** (Goldratt) for finding scaling bottlenecks
 
 Every skill includes web search triggers for real-time market data, competitor research, and community discovery.
 
