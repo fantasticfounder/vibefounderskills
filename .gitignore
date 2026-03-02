@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Blog strategy and SEO data (private - lives in StrategyBlueprint)
+BLOG_CONTENT_MAP.md
+keyword-master-list.md
+**/keyword*.md
+**/stage-*.md
+**/BLOG_STRATEGY.md
+**/TODO_*.md
+
+# Environment and secrets
+.env
+.env.*
+
+# Editor files
+*.swp
+*.swo
+*~

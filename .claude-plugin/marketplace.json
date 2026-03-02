@@ -1,0 +1,49 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vibefounderskills",
+  "version": "1.0.0",
+  "description": "Business strategy skills for vibecoders. Validate ideas, find customers, position your product, price it, launch it, and grow it. Built for people who can ship an app in a weekend but don't know how to get their first users.",
+  "owner": {
+    "name": "FantasticFounder",
+    "email": "hello@fantasticfounder.com",
+    "url": "https://fantasticfounder.com"
+  },
+  "plugins": [
+    {
+      "name": "ff-idea-validation",
+      "description": "Validate your app idea before wasting months building the wrong thing. Keyword demand checking, idea scoring, assumption testing, and pretotype design.",
+      "source": "./ff-idea-validation",
+      "category": "business-strategy"
+    },
+    {
+      "name": "ff-launch-acquisition",
+      "description": "Get your first users after building your product. Market segmentation, channel-market fit, launch execution, outreach, and community marketing for solo founders.",
+      "source": "./ff-launch-acquisition",
+      "category": "business-strategy"
+    },
+    {
+      "name": "ff-positioning",
+      "description": "Position your product to stand out in crowded markets. Niche selection, value propositions (JTBD), competitive differentiation (Blue Ocean, Porter's), positioning (April Dunford), and messaging.",
+      "source": "./ff-positioning",
+      "category": "business-strategy"
+    },
+    {
+      "name": "ff-customer-discovery",
+      "description": "Understand who your app is actually for. Target audience identification, customer interview prep, competitor scanning, persona building, and demand signal reading for solo founders who shipped first and asked questions later.",
+      "source": "./ff-customer-discovery",
+      "category": "business-strategy"
+    },
+    {
+      "name": "ff-pricing-selling",
+      "description": "Price your product and learn to sell it. Pricing model selection, monetization strategy, sales page structure, offer creation, and objection handling for founders who built something great but don't know what to charge.",
+      "source": "./ff-pricing-selling",
+      "category": "business-strategy"
+    },
+    {
+      "name": "ff-growth",
+      "description": "Grow and retain users after launch. Growth loops, referral systems, email list building, retention auditing, north star metrics, and scaling assessment for solo founders who got their first users and want more.",
+      "source": "./ff-growth",
+      "category": "business-strategy"
+    }
+  ]
+}

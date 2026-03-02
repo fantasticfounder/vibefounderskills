@@ -1,0 +1,21 @@
+{
+  "name": "ff-launch-acquisition",
+  "version": "1.0.0",
+  "description": "Get your first users after building your app. Launch strategies, channel selection, outreach, and community marketing - all designed for solo founders with $0 budgets.",
+  "author": {
+    "name": "FantasticFounder",
+    "email": "hello@fantasticfounder.com",
+    "url": "https://fantasticfounder.com"
+  },
+  "keywords": [
+    "vibecoder",
+    "launch",
+    "acquisition",
+    "first-users",
+    "marketing",
+    "growth",
+    "business-strategy"
+  ],
+  "homepage": "https://fantasticfounder.com",
+  "license": "MIT"
+}
